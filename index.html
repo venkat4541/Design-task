@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Verizon</title>
     <link rel="stylesheet" href="fa/css/font-awesome.css">
     <link rel="stylesheet" href="style.css">
@@ -12,7 +13,7 @@
         <nav class="top-menu">
           <div class="left">
             <ul>
-              <li>Wireless</li>
+              <li class="active-menu">Wireless</li>
               <li>Residential</li>
               <li>Business</li>
             </ul>
@@ -42,8 +43,8 @@
         <div class="text">
           <h2>commodo con</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. </p>
+          <button type="button" name="more">Learn More</button>
         </div>
-        <a href="#">        <button type="button" name="more">Learn More</button></a>
       </section>
       <section class="content">
         <div class="content-left">
@@ -64,52 +65,54 @@
       <section class="form">
         <h2>Lorem ipsum dolor sit amet</h2>
         <form method="post">
-          <label for="name">Name </label><input type="text" name="name" id="name">
-          <label for="phone">Phone </label><input type="number" name="name" id="phone">
-          <label for="age">Age </label><select id="age" name="age">
+          <label for="name">Name </label><br><input type="text" name="name" id="name" class="textInput"><br>
+          <label for="phone">Phone </label><br><input type="phone" name="name" id="phone" class="textInput"><br>
+          <label for="age">Age </label><br><select id="age" name="age">
             <option value="23">23</option>
-          </select>
-          <button type="submit" name="button">Submit</button>
+          </select><br>
+          <button type="submit" name="button" class="submit">Submit</button>
         </form>
+        <i class="fa fa-address-card" aria-hidden="true"></i>
       </section>
       <footer>
-        <section>
-          <ul>
-            <b><li>Lorem</li></b>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <b><li>Lorem</li></b>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <b><li>Lorem</li></b>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <b><li>Lorem</li></b>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-          </ul>
-        </section>
-
+        <div class="footer">
+          <section>
+            <ul>
+              <b><li>Lorem</li></b>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <b><li>Lorem</li></b>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <b><li>Lorem</li></b>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <b><li>Lorem</li></b>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </section>
+        </div>
       </footer>
     </div>
   </body>
